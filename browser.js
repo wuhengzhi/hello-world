@@ -122,7 +122,7 @@
 		}, false);
 		addCssToDocument("div.item {line-height: 150% !important;}");
 	}
-	if(hostname=='baidu.com'){
+	if(hostname.endsWith('baidu.com')){
 		//TEST ONLY
 		document.addEventListener('DOMContentLoaded', function(e){
 			if(document.body){
